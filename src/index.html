@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="format-detection" content="telephone=no,email=no,adress=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + "px";
+    </script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <form action="">
+                <input type="text" placeholder="搜索商品名称">
+            </form>
+        </header>
+        <main>
+            <div class="nav">
+                <ul>
+
+                </ul>
+            </div>
+            <script id="nav-tpl" type="text/x-handlebars-template">
+                {{#each nav}}
+                <li>{{this}}</li>
+                {{/each}}
+            </script>
+        </main>
+        <footer>
+            <dl>
+                <dt><i></i></dt>
+                <dd>
+                    首页
+                </dd>
+            </dl>
+            <dl>
+                <dt><i></i></dt>
+                <dd>
+                    首页
+                </dd>
+            </dl>
+            <dl>
+                <dt><i></i></dt>
+                <dd>
+                    首页
+                </dd>
+            </dl>
+            <dl>
+                <dt><i></i></dt>
+                <dd>
+                    首页
+                </dd>
+            </dl>
+        </footer>
+    </div>
+</body>
+
+</html>
+<script src="./js/util/require.js" data-main="js/main" async="true" defer></script>
